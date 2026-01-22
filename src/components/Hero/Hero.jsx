@@ -11,14 +11,18 @@ const Hero = () => {
         {/* Left: Logo and Nav */}
   <div className="flex shrink-0 items-center gap-1 sm:gap-2">
   <nav className="text-aquamarine-1000">
-    <ul className="
-        mx-2 sm:mx-4 md:mx-6 
-        flex items-center gap-2 sm:gap-3 
-        h-12 sm:h-14 
-        min-w-0 whitespace-nowrap 
-        overflow-x-auto no-scrollbar
-      "
-    >
+  <ul
+  className="
+    mx-2 sm:mx-4 md:mx-6
+    flex items-center gap-2 sm:gap-3 
+    h-12 sm:h-14
+    min-w-0 whitespace-nowrap
+
+    overflow-x-auto no-scrollbar
+    sm:overflow-visible
+  "
+>
+
       {/* Logo */}
       <li className="relative flex min-h-[32px] sm:min-h-[36px] items-center justify-center pr-2 sm:pr-3">
         <button
